@@ -25,4 +25,5 @@ Route::post('/products/store',[ProductController::class, 'store'])->name('produc
 Route::get('/products/{id}',[ProductController::class, 'show'])->name('products.show');
 
 
+// for serach functionality 
 Route::get('/search',[ProductController::class, 'search'])->name('products.search');
